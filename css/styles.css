@@ -1,0 +1,233 @@
+body {
+    background : rgb(58,58,58);
+    color : white;
+    font-family : Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background : black;
+    background-image: url("/res/hero.jpeg");
+    background-size: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer a {
+    color:rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+header .logo a {
+    background-image: url("/res/EMW_Logo_ImageOnly.png");
+    background-size: 100px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    top: -40px;
+    text-indent:-9999999px;
+    width: 100px;
+}
+
+.quoteimg {
+    border-radius: 150px;
+}
+
+.quote {
+    font-size: 28px;
+    font-style: italic;
+    position: relative;
+    top: -50px;
+}
+
+.about {
+    display: inline-block;
+    text-align: center;
+}
+
+.about p {
+    vertical-align: middle;
+}
+
+.about img {
+    vertical-align: middle;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.sendButton {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    resize: none;
+    overflow-y: scroll;
+	width: 100%;
+}
+
+.instagram-gallery {
+    display: inline-block;
+}
+
+.gallery-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin: 5px;
+}
+
+section {
+    background: rgb(255, 255, 255);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+h2 {
+    padding: 50px;
+    width: 55%;
+    display: inline-block;
+    font-style: italic;
+    font-size: 30px;
+}
+
+section p {
+    padding: 50px;
+    width: 55%;
+    display: inline-block;
+}
+
+section .mainImage {
+    width: 55%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+footer {
+    background : rgb(0, 0, 0);
+    color:rgb(179, 179, 179);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    vertical-align: center;
+}
+
+footer div {
+    height: 50px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+footer .logo a {
+    background-size: 26px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 26px;
+    width: 34px;
+    position: relative;
+    top: -3px;
+    text-indent:-9999999px;
+}
+
+.form {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+}
+
+footer .instagram {
+    background-image: url("/res/instagram.png");
+}
+
+footer .youtube {
+    background-image: url("/res/youtube.png");
+}
+
+footer .paypal {
+    background-image: url("/res/paypal.png");
+}
+
+footer .facebook {
+    background-image: url("/res/facebook.png");
+}
+
+@media (max-width: 500px) {
+    header {
+        background-size: 150%;
+        height: 300px;
+    }
+
+    header .logo {
+        height: 100px;
+    }
+
+    header li {
+        display: block;
+        height: 30px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+    section p {
+        width: 75%;
+    }
+
+    section .mainImage {
+        width: 75%;
+    }
+
+    .form {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: left;
+    }
+
+    .galleryItem {
+        display: block;
+        margin: 4%;
+        width: 92%;
+        height: 250px;
+        padding: 0px;
+    }
+}
