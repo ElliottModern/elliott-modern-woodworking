@@ -175,19 +175,19 @@ footer .logo a {
 }
 
 footer .instagram {
-    background-image: url("res/instagram.png");
+    background-image: url("../res/instagram.png");
 }
 
 footer .youtube {
-    background-image: url("res/youtube.png");
+    background-image: url("../res/youtube.png");
 }
 
 footer .paypal {
-    background-image: url("res/paypal.png");
+    background-image: url("../res/paypal.png");
 }
 
 footer .facebook {
-    background-image: url("res/facebook.png");
+    background-image: url("../res/facebook.png");
 }
 
 @media (max-width: 500px) {
